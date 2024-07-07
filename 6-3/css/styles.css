@@ -11,9 +11,35 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+/* Shared style */
+.text-primary {
+  color: #fd6e0a;
+}
 
+.dark-2 {
+  color: #474747;
+}
+
+/* Button style */
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 32px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Nav Style */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
 }
 
 .nav-title {
@@ -21,6 +47,17 @@ nav {
   font-size: 45px;
 }
 
-.text-primary {
-  color: #fd6e0a;
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
 }
