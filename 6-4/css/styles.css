@@ -1,0 +1,112 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Nav Styles */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* Shared style */
+.text-primary {
+  color: #fd6e0a;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+/* Button style */
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 32px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fd6e0a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 32px;
+  outline: none;
+  border: 1px solid #fd6e0a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* header */
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: 5% 0%, bottom right;
+}
+
+/* Nav Style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Hero Banner style */
+.banner {
+  display: flex;
+  /* margin: 50px 200px; */
+  margin: 0 35px 0 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-profile-pic {
+  width: 580px;
+}
